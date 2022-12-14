@@ -22256,8 +22256,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-h2, .h2 {
-  color: red;
+.section1 {
+  height: 50vh;
+  margin: 10vh;
+}
+
+.contenu-sec1 {
+  justify-content: center;
+  padding: 100px;
+  border: solid 2px #eaa636;
+}
+
+.btn-sec1 {
+  width: 30vh;
+  height: 10vh;
+  border-radius: 15px;
+  margin: 20px;
 }
 
 .carousel-item {
