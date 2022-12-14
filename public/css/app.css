@@ -22256,10 +22256,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-h1, .h1 {
-  font-family: kadri;
-}
-
 h2, .h2 {
   color: red;
 }
@@ -22290,5 +22286,22 @@ button {
   border: none;
   width: 15vh;
   height: 5vh;
+  color: white;
+}
+
+.navbar-brand {
+  color: #eaa636;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #eaa636;
+}
+
+.navbar {
+  background-color: #1e1916;
   color: white;
 }
