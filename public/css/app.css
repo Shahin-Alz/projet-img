@@ -22448,3 +22448,23 @@ button {
 .contenu2-sec5 {
   width: 35%;
 }
+
+.card-body2 {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.all-sec6 {
+  margin: 200px;
+}
+
+.card {
+  border: none;
+  background-color: #fdf5eb;
+}
+
+.card-title {
+  background-color: #fdf5eb;
+}
