@@ -22468,3 +22468,14 @@ button {
 .card-title {
   background-color: #fdf5eb;
 }
+
+@media screen and (max-width) {
+  .all-sec6 {
+    text-align: center;
+  }
+  .contenu3-sec6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
