@@ -22274,6 +22274,13 @@ textarea.form-control-lg {
   margin: 20px;
 }
 
+@media screen and (max-width: 380px) {
+  .contenu-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .div-sec2 {
   background-color: #fdf5eb;
   margin: 5vh;
@@ -22294,6 +22301,13 @@ textarea.form-control-lg {
   color: #eaa636;
 }
 
+@media screen and (max-width: 380px) {
+  .contenu-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .carousel-item {
   background-image: url(../../../public/img/carousel-1.jpg);
   height: 80vh;

@@ -18,3 +18,12 @@
     font-size: xx-large;
     color: #eaa636;
 }
+
+@media screen and(max-width: 380px){
+   
+    .contenu-sec2{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+   }
