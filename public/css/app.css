@@ -22413,3 +22413,32 @@ button {
   border: #eaa636 1px solid;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 380px) {
+  .contenu1-sec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .contenu2-sec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .contenu3-sec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .all-sec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 250vh;
+  }
+}
