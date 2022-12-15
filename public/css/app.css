@@ -22305,3 +22305,17 @@ button {
   background-color: #1e1916;
   color: white;
 }
+
+.navbar1 {
+  color: black;
+}
+
+.nav-link {
+  color: black;
+  margin: 5vh;
+}
+
+.hdr2 {
+  height: 60vh;
+  background-color: rgb(145, 137, 137);
+}
