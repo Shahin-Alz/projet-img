@@ -39,3 +39,28 @@
     width: 35%;
 }
 
+@media screen and(max-width:380px){
+    
+    .all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: none;
+    }
+
+    .contenu1-sec3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenu2-sec3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .list-sec3{
+        justify-content: center;
+    }
+
+}
