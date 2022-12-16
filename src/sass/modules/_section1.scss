@@ -1,0 +1,42 @@
+.section1{
+    height: 50vh;
+    margin: 10vh;
+}
+
+.contenu-sec1{
+    justify-content: center;
+    padding: 100px;
+    border: solid 2px #eaa636;
+}
+
+.btn-sec1{
+    width: 30vh;
+    height: 10vh;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+
+
+//  a{color:inherit; text-decoration:none;}
+//  h1{display:inline-block;}
+//  p{display:none;}
+//  p:target{display:block;}
+
+// .para-sec1{
+//     display: none;
+// }
+
+// .btn-sec1:active{
+    
+// }
+
+@media screen and (max-width: 380px){
+    
+    .contenu-sec1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
