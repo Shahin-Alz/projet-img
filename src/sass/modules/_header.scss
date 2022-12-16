@@ -1,0 +1,47 @@
+
+
+.carousel-item{
+    background-image: url(../../../public/img/carousel-1.jpg);
+    height: 80vh;
+}
+
+.carousel-item1{
+    background-image: url(../../../public/img/carousel-2.jpg);
+    height: 80vh;
+}
+
+.contenu-hdr{
+    margin-left: 30vh;
+    margin-top: 30vh;
+    color:white;
+}
+
+h1{
+    font-size: 90px;
+}
+
+button{
+    background-color: #eaa636;
+    border-radius: 40px;
+    border: none;
+    width: 15vh;
+    height: 5vh;
+    color: white;
+}
+
+.navbar-brand{
+    color: #eaa636;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #eaa636;
+}
+
+.navbar{
+    background-color: #1e1916;
+    color: white;
+}
