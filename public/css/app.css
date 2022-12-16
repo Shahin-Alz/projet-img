@@ -22302,13 +22302,6 @@ textarea.form-control-lg {
   color: #eaa636;
 }
 
-@media screen and (max-width: 380px) {
-  .contenu-sec2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .carousel-item {
   background-image: url(../../../public/img/carousel-1.jpg);
   height: 80vh;
