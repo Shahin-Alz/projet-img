@@ -1,0 +1,29 @@
+.div-sec2{
+    background-color: #fdf5eb;
+    margin: 5vh;
+    text-align: center;
+    width: 30vh;
+    height: 30vh;
+    padding-top: 10vh;
+    
+}
+
+.div-sec2:hover {
+    transform: scale(1.5); 
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px black;
+  }
+
+.fa-solid{
+    font-size: xx-large;
+    color: #eaa636;
+}
+
+@media screen and(max-width: 380px){
+
+    .contenu-sec2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
