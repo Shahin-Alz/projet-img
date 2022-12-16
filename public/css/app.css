@@ -22310,6 +22310,8 @@ button {
   height: 10vh;
   color: black;
   padding: 50px;
+  background-color: #1e1916;
+  align-items: center;
 }
 
 .nav-link {
@@ -22319,6 +22321,7 @@ button {
 
 .navbar-brand {
   font-size: xx-large;
+  padding-top: 0%;
 }
 
 .titre-ftr {
@@ -22328,6 +22331,11 @@ button {
 .hdr2 {
   height: 60vh;
   background-color: rgb(145, 137, 137);
+}
+
+.ftr {
+  background-color: #1e1916;
+  padding-top: 20px;
 }
 
 .section-ftr {
@@ -22366,4 +22374,17 @@ button {
 
 .cart-footer {
   width: 80%;
+}
+
+p:hover {
+  color: #eaa636;
+}
+
+.img-ftr {
+  width: 75px;
+  height: 75px;
+}
+
+.img-footer {
+  margin: 10px;
 }
