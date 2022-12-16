@@ -22302,6 +22302,68 @@ textarea.form-control-lg {
   color: #eaa636;
 }
 
+@media screen and (max-width: 380px) {
+  .contenu-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.all-sec3 {
+  justify-content: space-evenly;
+  margin: 100px;
+}
+
+.contenu1-sec3 {
+  background-color: #eaa636;
+  height: 50vh;
+  width: 50vh;
+  border: 10px solid #fdf5eb;
+  justify-content: center;
+}
+
+.img1-sec3 {
+  width: 35vh;
+  height: 50vh;
+  margin: 1vh;
+  position: relative;
+  bottom: 50px;
+  border-radius: 10px;
+}
+
+.img2-sec3 {
+  width: 35vh;
+  height: 50vh;
+  margin: 1vh;
+  position: relative;
+  top: 50px;
+  border-radius: 10px;
+}
+
+.contenu2-sec3 {
+  width: 35%;
+}
+
+@media screen and (max-width: 380px) {
+  .all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: none;
+  }
+  .contenu1-sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenu2-sec3 {
+    width: 100%;
+    text-align: center;
+  }
+  .list-sec3 {
+    justify-content: center;
+  }
+}
 .carousel-item {
   background-image: url(../../../public/img/carousel-1.jpg);
   height: 80vh;
@@ -22346,87 +22408,4 @@ button {
 .navbar {
   background-color: #1e1916;
   color: white;
-}
-
-.navbar1 {
-  height: 10vh;
-  color: black;
-  padding: 50px;
-  background-color: #1e1916;
-  align-items: center;
-}
-
-.nav-link {
-  color: black;
-  margin: 5vh;
-}
-
-.navbar-brand {
-  font-size: xx-large;
-  padding-top: 0%;
-}
-
-.titre-ftr {
-  font-size: 50px;
-}
-
-.hdr2 {
-  height: 60vh;
-  background-color: rgb(145, 137, 137);
-}
-
-.ftr {
-  background-color: #1e1916;
-  padding-top: 20px;
-}
-
-.section-ftr {
-  text-align: center;
-  margin: 100px;
-}
-
-.form-ftr {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.form-control1 {
-  width: 100vh;
-  height: 30vh;
-  margin-top: 20px;
-  border-radius: 10px;
-}
-
-.form-control2 {
-  width: 100vh;
-  margin-top: 20px;
-  border-radius: 5px;
-  border-color: gray;
-}
-
-.form-group1 {
-  width: 45vh;
-  margin: 20px;
-}
-
-.cart-ftr {
-  text-align: center;
-}
-
-.cart-footer {
-  width: 80%;
-}
-
-p:hover {
-  color: #eaa636;
-}
-
-.img-ftr {
-  width: 75px;
-  height: 75px;
-}
-
-.img-footer {
-  margin: 10px;
 }
